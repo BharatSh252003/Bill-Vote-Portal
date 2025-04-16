@@ -56,8 +56,9 @@ function vote(billId, voteType) {
     } else {
         alert("Invalid Voter ID. Please try again.");
     }
+    // Redirect back to the homepage
+    window.location.href = 'index.html';
 }
-
 // Function to prompt for admin password
 function promptAdminPassword() {
     const password = prompt("Please enter the admin password:");
